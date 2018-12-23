@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="https://cdn.pixabay.com/photo/2016/03/31/14/37/check-mark-1292787__340.png">
+    <meta name="description" content="A simple to-do app made using JavaScript and AJAX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sonia Muzemil">
+  </head>
+  <body>
+    <header>
+      <i class="fas fa-check-double"></i><h1>To-Do List</h1>
+    </header>
+    <main>
+      <div id="confirmation"></div>
+      <div id="addtodos">
+        <h2>Add a To-Do</h2>
+        <form id="todo-form">
+          <input id="create" type="text" placeholder="Add to-do..."/>
+          <input id="add" type="submit" value="+" />
+        </form>
+      </div>
+      <div id="todos">
+        <h2>To-Dos</h2>
+        <!-- To-dos will be added here -->
+      </div>
+    </main>
+    <footer>
+      2018 &copy; Sonia Muzemil
+    </footer>
+    <script src="script.js"></script>
+    <script src="key.js"></script>
+  </body>
+</html>
